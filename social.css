@@ -28,7 +28,7 @@ nav ul li a{color:white;display: block;width: 100%;text-decoration: none}
     padding-top: 10px;
     z-index: 1;}
     section div li{list-style: none;margin:2%;}
-section div li:hover{animation: social 1s 1;
+	section div li:hover{animation: social 1s 1;
 
 }
 img{

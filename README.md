@@ -1,2 +1,0 @@
-# shangbutamang.github.io
-assignment

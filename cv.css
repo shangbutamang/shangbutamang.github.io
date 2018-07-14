@@ -39,9 +39,27 @@ section{
     overflow: hidden;
 }
 section{}
-section div:first-child{background:rgb(238,233,233); display: block;text-align: center;font-family: 'Kaushan Script', cursive;
-font-size: 25px}
-    margin-right: auto }
+section div:nth-child{background:rgb(238,233,233); display: block; padding-left: 2%;}
+.personal{
+	font-size: 25px; float: left; width: 45%; display: block; margin-left: 5%;
+}
+.profile{
+	font-size: 25px;width: 50%;display: block; float: right; 
+}
+.certificate{position: absolute;
+	display: block;font-size: 25px; margin-top: 20% ;
+	background-image: url(images/character.JPG);
+	height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
 .clear{clear: both;}
 .ftrclass{
 	background:linear-gradient(to right,rgb(85, 96, 96),rgb(40, 72, 45));
@@ -49,7 +67,6 @@ font-size: 25px}
 	
 	
 	}
-.civ{max-width: 100%;}
 footer div:first-child{
 	font-size: 30px;
 	 padding: 1%;
